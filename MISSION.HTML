@@ -3,10 +3,18 @@
 <head>
   <title>Mission Statement</title>
   <link rel="stylesheet" href="MISSION.CSS">
-  <link rel="stylesheet" href="MISS.js">
-  
+  <script src="mission.js" defer></script>
 </head>
-<body>
+<body class="dark">
+  <div style="text-align: center; margin-top: 20px;">
+    <label for="theme-select">Choose a theme: </label>
+    <select id="theme-select">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+  </div>
+
+  
   <div class="center-content">
     <h2>MISSION STATEMENT</h2>
     <h1>BRIGHAM YOUNG UNIVERSITY-IDAHO</h1>
@@ -24,7 +32,11 @@
       <li>Serving as many students as possible within resource constraints.</li>
       <li>Delivering education that is affordable for students and the Church.</li>
     </ol>
-    <img src="byui-logo_blue.webp" alt="">
+  </div>
+
+
+  <div style="text-align: center; margin-top: 40px;">
+    <img src="byui-logo_blue.webp" alt="BYUI Logo" style="width: 150px;">
   </div>
 </body>
 </html>
