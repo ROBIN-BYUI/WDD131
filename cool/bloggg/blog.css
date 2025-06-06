@@ -34,3 +34,15 @@ body {
     top: 0;
   }
   
+
+  #articles article{
+
+    display : grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+
+  #maincontent{
+    display : grid;
+    grid-template-columns: 3fr 1fr;
+  }

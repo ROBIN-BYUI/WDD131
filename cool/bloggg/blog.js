@@ -5,7 +5,7 @@ const articles = [
       genre: "Fantasy",
       rating: "★★★★",
       title: "Septimus Heap Book One: Magyk",
-      image: "magyk.jpg",
+      image: "https://upload.wikimedia.org/wikipedia/en/5/5f/Magkycover2.jpg",
       description: "A fantasy adventure that begins an epic series full of magic and mystery."
     },
     {
@@ -14,7 +14,7 @@ const articles = [
       genre: "Mystery",
       rating: "★★★☆",
       title: "The Mysterious Benedict Society",
-      image: "bennysociety.jpg",
+      image: "https://books.google.com/books/content/images/frontcover/xWuyBAAAQBAJ?fife=w300",
       description: "A story of four gifted children recruited for a secret mission that challenges their wits and bravery."
     },
     {
@@ -23,7 +23,7 @@ const articles = [
       genre: "Adventure",
       rating: "★★★★★",
       title: "Percy Jackson and the Olympians: The Lightning Thief",
-      image: "lightningthief.jpg",
+      image: "https://images-na.ssl-images-amazon.com/images/I/41ZxXA+nInL.jpg",
       description: "Percy discovers he is a demigod and goes on a quest to prevent a war among the gods."
     }
   ];
